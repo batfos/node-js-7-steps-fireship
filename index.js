@@ -28,15 +28,27 @@
 
 // 6. FILE SYSTEM
 
-const {readFile, readFileSync} = require('fs')
+// const {readFile, readFileSync} = require('fs')
 
-const txt = readFileSync('./salam.txt', 'utf8')
+// const txt = readFileSync('./salam.txt', 'utf8')
 
-// console.log(txt)
+// // console.log(txt)
+// // console.log('GPL‼️')
+
+// readFile('./salam.txt', 'utf8', (err, txt) => {
+//   console.log(txt)
+// })
+
 // console.log('GPL‼️')
 
-readFile('./salam.txt', 'utf8', (err, txt) => {
-  console.log(txt)
-})
+const {readFile} = require('fs').promises
+
+async function salam() {
+  const file = await readFile('./salam.txt', 'utf8')
+
+  console.log(file)
+}
+
+salam()
 
 console.log('GPL‼️')
