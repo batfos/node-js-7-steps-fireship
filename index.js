@@ -41,14 +41,20 @@
 
 // console.log('GPL‼️')
 
-const {readFile} = require('fs').promises
+// const {readFile} = require('fs').promises
 
-async function salam() {
-  const file = await readFile('./salam.txt', 'utf8')
+// async function salam() {
+//   const file = await readFile('./salam.txt', 'utf8')
 
-  console.log(file)
-}
+//   console.log(file)
+// }
 
-salam()
+// salam()
 
-console.log('GPL‼️')
+// console.log('GPL‼️')
+
+// 7. MODULES & NPM
+
+const myModule = require('./my-module')
+
+console.log(myModule)
