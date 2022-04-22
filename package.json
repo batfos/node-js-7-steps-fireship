@@ -1,0 +1,20 @@
+{
+  "name": "js-7-steps-fireship",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=ENrzD9HAZK4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batfos/node-js-7-steps-fireship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batfos/node-js-7-steps-fireship/issues"
+  },
+  "homepage": "https://github.com/batfos/node-js-7-steps-fireship#readme"
+}
