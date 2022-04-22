@@ -14,14 +14,23 @@
 
 // 5. EVENTS
 
-const {EventEmitter} = require('events')
+// const {EventEmitter} = require('events')
 
-const eventEmitter = new EventEmitter()
+// const eventEmitter = new EventEmitter()
 
-eventEmitter.on('istigfar', () => {
-  console.log('Astaghfirullāh 🧎')
-})
+// eventEmitter.on('istigfar', () => {
+//   console.log('Astaghfirullāh 🧎')
+// })
 
-eventEmitter.emit('istigfar') // Astaghfirullāh 🧎
-eventEmitter.emit('istigfar') // Astaghfirullāh 🧎
-eventEmitter.emit('istigfar') // Astaghfirullāh 🧎
+// eventEmitter.emit('istigfar') // Astaghfirullāh 🧎
+// eventEmitter.emit('istigfar') // Astaghfirullāh 🧎
+// eventEmitter.emit('istigfar') // Astaghfirullāh 🧎
+
+// 6. FILE SYSTEM
+
+const {readFile, readFileSync} = require('fs')
+
+const txt = readFileSync('./salam.txt', 'utf8')
+
+console.log(txt)
+console.log('GPL‼️')
