@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/batfos/node-js-7-steps-fireship/issues"
   },
-  "homepage": "https://github.com/batfos/node-js-7-steps-fireship#readme"
+  "homepage": "https://github.com/batfos/node-js-7-steps-fireship#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
